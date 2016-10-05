@@ -1,0 +1,206 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-concat-css',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of C:\Users\deepak.sabharwal\Desktop\frontend-project-new\package.json
+5 warn package.json frontend-project-new@1.0.0 No description
+6 warn package.json frontend-project-new@1.0.0 No repository field.
+7 warn package.json frontend-project-new@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-contrib-sass\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-contrib-watch\package.json
+11 verbose readDependencies loading dependencies from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\package.json
+12 silly cache add args [ 'grunt-concat-css', null ]
+13 verbose cache add spec grunt-concat-css
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'grunt-concat-css',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'grunt-concat-css',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: 'latest',
+14 silly cache add   type: 'tag' }
+15 silly addNamed grunt-concat-css@latest
+16 verbose addNamed "latest" is being treated as a dist-tag for grunt-concat-css
+17 info addNameTag [ 'grunt-concat-css', 'latest' ]
+18 silly mapToRegistry name grunt-concat-css
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'grunt-concat-css',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   name: 'grunt-concat-css',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://registry.npmjs.org/grunt-concat-css
+23 verbose addNameTag registry:https://registry.npmjs.org/grunt-concat-css not in flight; fetching
+24 verbose request uri https://registry.npmjs.org/grunt-concat-css
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 5:12:29 PM
+27 verbose request id 02a733f08dcd69cc
+28 verbose etag "3LKNS640OEF6H86MCMHH97MF7"
+29 http request GET https://registry.npmjs.org/grunt-concat-css
+30 http 304 https://registry.npmjs.org/grunt-concat-css
+31 verbose headers { date: 'Tue, 04 Oct 2016 11:42:29 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   etag: '"3LKNS640OEF6H86MCMHH97MF7"',
+31 verbose headers   age: '0',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+31 verbose headers   'x-cache': 'HIT',
+31 verbose headers   'x-cache-hits': '1',
+31 verbose headers   'x-timer': 'S1475581349.954296,VS0,VE1054',
+31 verbose headers   vary: 'Accept-Encoding' }
+32 silly get cb [ 304,
+32 silly get   { date: 'Tue, 04 Oct 2016 11:42:29 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     etag: '"3LKNS640OEF6H86MCMHH97MF7"',
+32 silly get     age: '0',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-sin6924-SIN',
+32 silly get     'x-cache': 'HIT',
+32 silly get     'x-cache-hits': '1',
+32 silly get     'x-timer': 'S1475581349.954296,VS0,VE1054',
+32 silly get     vary: 'Accept-Encoding' } ]
+33 verbose etag https://registry.npmjs.org/grunt-concat-css from cache
+34 verbose get saving grunt-concat-css to C:\Users\deepak.sabharwal\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-concat-css\.cache.json
+35 verbose correctMkdir C:\Users\deepak.sabharwal\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+36 silly addNameTag next cb for grunt-concat-css with tag latest
+37 silly addNamed grunt-concat-css@0.3.1
+38 verbose addNamed "0.3.1" is a plain semver version for grunt-concat-css
+39 silly cache afterAdd grunt-concat-css@0.3.1
+40 verbose afterAdd C:\Users\deepak.sabharwal\AppData\Roaming\npm-cache\grunt-concat-css\0.3.1\package\package.json not in flight; writing
+41 verbose correctMkdir C:\Users\deepak.sabharwal\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+42 verbose afterAdd C:\Users\deepak.sabharwal\AppData\Roaming\npm-cache\grunt-concat-css\0.3.1\package\package.json written
+43 silly install resolved [ { name: 'grunt-concat-css',
+43 silly install resolved     version: '0.3.1',
+43 silly install resolved     description: 'Concat CSS with @import statements at top and relative url preserved.',
+43 silly install resolved     homepage: 'https://github.com/urturn/grunt-concat-css',
+43 silly install resolved     author: { name: 'Olivier Amblet', email: 'olivier@amblet.net' },
+43 silly install resolved     repository:
+43 silly install resolved      { type: 'git',
+43 silly install resolved        url: 'git+https://github.com/urturn/grunt-concat-css.git' },
+43 silly install resolved     bugs: { url: 'https://github.com/urturn/grunt-concat-css/issues' },
+43 silly install resolved     licenses: [ [Object] ],
+43 silly install resolved     engines: { node: '>= 0.8.0' },
+43 silly install resolved     scripts: { test: 'grunt test' },
+43 silly install resolved     directories: { test: 'test' },
+43 silly install resolved     devDependencies:
+43 silly install resolved      { grunt: '~0.4.2',
+43 silly install resolved        'grunt-concat-css': 'git://github.com/webdoc/grunt-concat-css.git',
+43 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+43 silly install resolved        'grunt-contrib-jshint': '~0.8.0',
+43 silly install resolved        'grunt-contrib-nodeunit': '~0.2.2' },
+43 silly install resolved     peerDependencies: { grunt: '~0.4.1' },
+43 silly install resolved     keywords: [ 'gruntplugin', 'css', 'concat' ],
+43 silly install resolved     _id: 'grunt-concat-css@0.3.1',
+43 silly install resolved     dist:
+43 silly install resolved      { shasum: 'b52c7511c696868cdae6ec4048df5bdd2896dd12',
+43 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-concat-css/-/grunt-concat-css-0.3.1.tgz' },
+43 silly install resolved     _from: 'grunt-concat-css@latest',
+43 silly install resolved     _npmVersion: '1.2.17',
+43 silly install resolved     _npmUser: { name: 'oliamb', email: 'olivier@amblet.net' },
+43 silly install resolved     maintainers: [ [Object] ],
+43 silly install resolved     _shasum: 'b52c7511c696868cdae6ec4048df5bdd2896dd12',
+43 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-concat-css/-/grunt-concat-css-0.3.1.tgz',
+43 silly install resolved     readme: 'ERROR: No README data found!' } ]
+44 info install grunt-concat-css@0.3.1 into C:\Users\deepak.sabharwal\Desktop\frontend-project-new
+45 info installOne grunt-concat-css@0.3.1
+46 verbose installOne of grunt-concat-css to C:\Users\deepak.sabharwal\Desktop\frontend-project-new not in flight; installing
+47 verbose correctMkdir C:\Users\deepak.sabharwal\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+48 verbose lock using C:\Users\deepak.sabharwal\AppData\Roaming\npm-cache\_locks\grunt-concat-css-125c63f1e86d06c2.lock for C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css
+49 silly install write writing grunt-concat-css 0.3.1 to C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css
+50 verbose unbuild node_modules\grunt-concat-css
+51 silly gentlyRm C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css is being purged from base C:\Users\deepak.sabharwal\Desktop\frontend-project-new
+52 verbose gentlyRm don't care about contents; nuking C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css
+53 verbose tar unpack C:\Users\deepak.sabharwal\AppData\Roaming\npm-cache\grunt-concat-css\0.3.1\package.tgz
+54 verbose tar unpacking to C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css
+55 silly gentlyRm C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css is being purged
+56 verbose gentlyRm don't care about contents; nuking C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css
+57 silly gunzTarPerm modes [ '777', '666' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+62 silly gunzTarPerm extractEntry README.md
+63 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+64 silly gunzTarPerm extractEntry Gruntfile.js
+65 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 438 ]
+66 silly gunzTarPerm extractEntry .jshintrc
+67 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+68 silly gunzTarPerm extractEntry LICENSE-MIT
+69 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 420, 438 ]
+70 silly gunzTarPerm extractEntry tasks/concat_css.js
+71 silly gunzTarPerm modified mode [ 'tasks/concat_css.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry test/concat_css_test.js
+73 silly gunzTarPerm modified mode [ 'test/concat_css_test.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry test/expected/basedir_options.css
+75 silly gunzTarPerm modified mode [ 'test/expected/basedir_options.css', 420, 438 ]
+76 silly gunzTarPerm extractEntry test/expected/default_options.css
+77 silly gunzTarPerm modified mode [ 'test/expected/default_options.css', 420, 438 ]
+78 silly gunzTarPerm extractEntry test/expected/no_basedir_options.css
+79 silly gunzTarPerm modified mode [ 'test/expected/no_basedir_options.css', 420, 438 ]
+80 silly gunzTarPerm extractEntry test/expected/rebase_urls.css
+81 silly gunzTarPerm modified mode [ 'test/expected/rebase_urls.css', 420, 438 ]
+82 silly gunzTarPerm extractEntry test/fixtures/component_a/css/style.css
+83 silly gunzTarPerm modified mode [ 'test/fixtures/component_a/css/style.css', 420, 438 ]
+84 silly gunzTarPerm extractEntry test/fixtures/import.css
+85 silly gunzTarPerm modified mode [ 'test/fixtures/import.css', 420, 438 ]
+86 silly gunzTarPerm extractEntry test/fixtures/test.css
+87 silly gunzTarPerm modified mode [ 'test/fixtures/test.css', 420, 438 ]
+88 verbose write writing to C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css\package.json
+89 info preinstall grunt-concat-css@0.3.1
+90 verbose readDependencies loading dependencies from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css\package.json
+91 silly prepareForInstallMany adding grunt@~0.4.1 from grunt-concat-css peerDependencies
+92 warn peerDependencies The peer dependency grunt@~0.4.1 included from grunt-concat-css will no
+93 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+94 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+95 verbose readDependencies loading dependencies from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css\package.json
+96 silly install resolved []
+97 verbose about to build C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css
+98 info build C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css
+99 info linkStuff grunt-concat-css@0.3.1
+100 silly linkStuff grunt-concat-css@0.3.1 has C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules as its parent node_modules
+101 verbose linkBins grunt-concat-css@0.3.1
+102 verbose linkMans grunt-concat-css@0.3.1
+103 verbose rebuildBundles grunt-concat-css@0.3.1
+104 info install grunt-concat-css@0.3.1
+105 info postinstall grunt-concat-css@0.3.1
+106 verbose readDependencies loading dependencies from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\package.json
+107 verbose targetResolver reading package data from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt\package.json
+108 verbose targetResolver reading package data from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css\package.json
+109 verbose targetResolver reading package data from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-contrib-sass\package.json
+110 verbose targetResolver reading package data from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-contrib-watch\package.json
+111 verbose targetResolver reading package data from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\.bin\grunt\package.json
+112 verbose targetResolver reading package data from C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\.bin\grunt.cmd\package.json
+113 verbose already installed skipping grunt@~0.4.1 C:\Users\deepak.sabharwal\Desktop\frontend-project-new
+114 silly install resolved []
+115 verbose unlock done using C:\Users\deepak.sabharwal\AppData\Roaming\npm-cache\_locks\grunt-concat-css-125c63f1e86d06c2.lock for C:\Users\deepak.sabharwal\Desktop\frontend-project-new\node_modules\grunt-concat-css
+116 verbose validateInstall loading C:\Users\deepak.sabharwal\Desktop\frontend-project-new\package.json for validation
+117 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+117 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+117 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+117 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+117 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+117 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+117 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+117 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+117 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+117 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+117 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+118 verbose cwd C:\Users\deepak.sabharwal\Desktop\frontend-project-new
+119 error Windows_NT 6.1.7601
+120 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-concat-css" "--save-dev"
+121 error node v4.4.4
+122 error npm  v2.15.1
+123 error code EPEERINVALID
+124 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+124 error peerinvalid Peer grunt-concat-css@0.3.1 wants grunt@~0.4.1
+124 error peerinvalid Peer grunt-contrib-sass@1.0.0 wants grunt@>=0.4.0
+125 verbose exit [ 1, true ]

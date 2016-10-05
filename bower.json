@@ -1,0 +1,21 @@
+{
+  "name": "frontend-project-new",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ICPL\\deepak.sabharwal <deepak.sabharwal@icreon.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "1.9.1",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
